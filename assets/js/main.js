@@ -8,11 +8,11 @@ console.log(admin)
 
 // 2
 
-let nameCity = prompt('Введите название города', 'Неизветсное Город');
-let age = prompt('Введите год образования', 'Неизветсно');
-let nas = prompt('Население', 'Неизветсно');
-let all = 2024 - age;
-let isTrue = confirm(`Городу ${nameCity} исполнилось ${all} лет с момента его образования. Население ${nas} человек`);
+let nameCity = prompt('Введите название города');
+let age = prompt('Введите год образования');
+let peoples = prompt('Население');
+let cityAge = 2024 - age;
+let isTrue = confirm(`Городу ${nameCity} исполнилось ${cityAge} лет с момента его образования. Население ${peoples} человек`);
 alert(isTrue);
 
 // 3
